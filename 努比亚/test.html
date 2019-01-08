@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .father{
+            width: 500px;
+            height: 500px;
+            margin: 0 auto;
+            border: 5px solid red;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .son{
+            /*margin: 0 auto;*/
+            /*width: 200px;*/
+            /*position: absolute;
+            left: 50%;
+            margin-left: -532px;*/
+            margin: 0 -100%;
+        }
+    </style>
+</head>
+<body>
+<!--
+注意点：
+1.如果图片的宽度大于父元素的宽度，不能使用margin: 0 auto;或者text-align:center;让图片居中
+2.如果图片的宽度大于父元素的宽度，可以使用定位流让图片居中,但是定位流的弊端也比较明显：
+a.需要写三行代码
+b.必须知道图片的宽度
+3.如果图片的宽度大于父元素的宽度，也可以使用奇淫技巧
+margin: 0 -100%;
+注意点：
+父元素必须设置text-align:center;
+-->
+<div class="father">
+    <img src="images/video1.jpg" alt="" class="son">
+</div>
+</body>
+</html>
