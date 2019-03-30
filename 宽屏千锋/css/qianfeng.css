@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul li,ol li{
+    list-style: none;
+}
+body{
+    font: 12px "微软雅黑";
+}
+.header{
+    width: 100%;
+    height: 62px;
+    background-color: #232323;
+}
+.h_main{
+    width: 1002px;
+    height: 62px;
+    background-color: #232323;
+    margin: 0 auto;
+}
+.h_main .logo{
+    width: 200px;
+    height: 63px;
+    float: left;
+}
+.h_main .logo a{
+    text-decoration: none;
+    margin-right: 5px;
+
+}
+.h_main ul{
+    float: right;
+    /*position: absolute;
+    top: 0;
+    right: 0;*/
+}
+.h_main ul li{
+    list-style: none;
+    float: left;
+    width: 86px;
+    height: 63px;
+    line-height: 63px;
+    text-align: center;
+}
+.h_main ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    border-left: 1px solid #444444;
+    border-right: 1px solid #000;
+
+}
+.h_main ul li:hover{
+
+    background-color: #f15a23;
+}
+.h_main ul li:hover a{
+    border-left: 1px solid #f15a23;
+    border-right: 1px solid #000;
+}
+.h_main ul li:first-child{
+
+    width: 62px;
+
+}
+
+.h_main .home_page{
+    border-left: #232323;
+}
+.h_main ul li:last-child a{
+    border-right:none;
+}
+.banner{
+
+    height: 267px;
+
+
+}
+
+.nav{
+    width: 100%;
+    height: 44px;
+    margin: 0 auto;
+    border-bottom: 1px solid #CCCCCC;
+}
+.n_main{
+    width: 1002px;
+    height: 44px;
+    line-height: 44px;
+    margin: 0 auto;
+    background-color: #fff;
+
+}
+.n_main i{
+    color: #b2b2b2;
+}
+
+.main{
+    width: 1002px;
+    height: 1432px;
+    margin: 0 auto;
+
+    /*background-color: yellow;*/
+}
+.main_l{
+    width: 223px;
+    height: 1392px;
+    float: left;
+    background-color: #efefef;
+}
+.train{
+    width: 223px;
+    height: 77px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d4d4d4;
+}
+.train .t{
+    width: 216px;
+    height: 55px;
+    background-color: #efefef;
+    padding-top: 22px;
+}
+.train .train_c{
+    /*margin-top: 22px;*/
+    font-size: 24px;
+    text-align: center;
+    color: #363636;
+}
+.train .train_e{
+    /*margin-top: 22px;*/
+    font-size: 12px;
+    text-align: center;
+    color: #bcbcbc;
+}
+.inner_t{
+    width: 223px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #d4d4d4;
+    background-color: #ff9a57;
+}
+.inner_t .t{
+    width: 216px;
+    height: 55px;
+    background-color: #f15a23;
+
+}
+
+.in_train{
+    font-size: 16px;
+    color: #fff;
+}
+.teacher{
+    width: 223px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #d4d4d4;
+    background-color: #f7f7f7;
+}
+.teacher .t{
+    width: 216px;
+    height: 55px;
+    background-color: #efefef;
+}
+.teacher .train_c{
+    font-size: 16px;
+    text-align: center;
+    color: #363636;
+}
+.main_l_b {
+    width: 223px;
+    height: 1200px;
+    background-color: #f7f7f7;
+}
+.main_l_b .t{
+    width: 216px;
+    height: 100%;
+    background-color: #efefef;
+}
+.main_r {
+    width: 737px;
+    height: 1383px;
+    float: right;
+    padding-top: 9px;
+    /*background-color: pink;*/
+}
+.main_r .title{
+    float: left;
+    width: 110px;
+    height: 34px;
+    line-height: 34px;
+    border-bottom: 2px solid #f15a23;
+
+}
+.main_r .line{
+    float: left;
+    width: 627px;
+    height: 36px;
+    border-bottom: 1px dashed #c9caca;
+}
+.main_r .title img{
+    float: left;
+    margin-right: 10px;
+    margin-top: 12px;
+}
+.main_r .title p{
+    float: left;
+    font-size: 18px;
+    color: #000;
+}
+.main_r .pic_txt{
+    width: 100%;
+    height: 1325px;
+    margin-top: 22px;
+    float: left;
+}
+.main_r .pic_txt .partner{
+    width: 132px;
+    height: 124px;
+    float: left;
+    margin-right: 17px;
+
+}
+.main_r .pic_txt p{
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+.main_r .pic_txt .last{
+    margin-right: 0;
+}
+.main_r .pic_txt ul{
+    float: left;
+    margin-top: 13px;
+    width: 737px;
+    height: 465px;
+    /*background-color: red;*/
+}
+.main_r .pic_txt ul li{
+    height: 39px;
+    line-height: 39px;
+    border-bottom: 1px dashed #d4d4d4;
+}
+.main_r .pic_txt ul li a{
+    float: left;
+    display: block;
+    font-size: 14px;
+    color: #f15a23;
+}
+.main_r .pic_txt ul li span{
+    float: right;
+}
+.main_r .pic_txt .demand{
+    border-top: 1px solid #d4d4d4;
+
+}
+.main .main_r .pic_txt .pic{
+    float: left;
+    margin-left: 5px;
+    width: 725px;
+    height: 137px;
+
+}
+.main .main_r .pic_txt .pic .fre {
+    float: left;
+    margin-top: 10px;
+}
+.main .main_r .pic_txt .fre li{
+    border-bottom: none;
+    float: left;
+    margin-right: 11px;
+    height: 74px;
+}
+.bottom{
+    width: 100%;
+    height: 214px;
+    /*margin: 0 auto;*/
+    background-color: #222222;
+}
+.bottom .b_main{
+    width: 1002px;
+    margin: 0 auto;
+}
+.bottom .b_main .b_custom{
+    width: 500px;
+    height: 214px;
+    border-right: 1px solid #666;
+    float: left;
+}
+
+.bottom .b_main .b_custom dl{
+    width: 80px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 5px;
+
+}
+
+.bottom .b_main .b_custom dt{
+
+    font-size: 14px;
+    height: 25px;
+    padding-top: 27px;
+    margin-bottom: 20px;
+}
+.bottom .b_main .b_custom dt a{
+    text-decoration: none;
+    color: #fff
+}
+
+.bottom .b_main .b_custom dd{
+    height: 20px;
+    padding-bottom: 5px;
+    margin-left: 0;
+
+
+
+
+}
+.bottom .b_main .b_custom dd a{
+    text-decoration: none;
+    height: 20px;
+    font-size: 14px;
+    margin-left: 0;
+    padding-bottom: 5px;
+    color: #666;
+
+
+
+}
+.bottom .b_main .campus{
+    width: 250px;
+    float: left;
+
+}
+.bottom .b_main .campus img{
+    margin-left: 40px;
+    margin-top: 28px;
+}
+.bottom .b_main .QR_code{
+    width: 250px;
+    float: left;
+
+}
+.bottom .b_main .QR_code img{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.footer{
+    width: 100%;
+    height: 45px;
+    background-color: #101010;
+}
+.footer .f_main{
+    width: 100%;
+    height: 45px;
+    margin: 0 auto;
+    background-color: #101010;
+}
+.footer .f_main p{
+    margin: 0;
+    color: #666;
+    font-size: 12px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+}

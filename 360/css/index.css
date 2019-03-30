@@ -1,0 +1,684 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 1366px;
+    height: 3156px;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: 118px;
+}
+.logo{
+    width: 175px;
+    height: 100%;
+    float: left;
+    margin-left: 305px;
+}
+.search{
+    width: 525px;
+    height: 100%;
+    float: left;
+}
+.search .menu{
+    width: 391px;
+    height: 38px;
+    float: left;
+    padding-left: 13px;
+    margin-top: 34px;
+    border: 1px solid #23ac38;
+}
+.search .page{
+    float: left;
+    outline: none;
+    height: 38px;
+    line-height: 38px;
+    border: none;
+    font-size: 13px;
+    color: #999999;
+}
+.search .txt{
+    outline: none;
+    width: 311px;
+    height: 36px;
+    border: none;
+}
+.search .find{
+    width: 22px;
+    height: 38px;
+    border: none;
+    background: url("../images/index_05.png") no-repeat  center;
+}
+.search button{
+    float: left;
+    font-size: 18px;
+    margin-top: 34px;
+    width: 119px;
+    height: 40px;
+    color: #fff;
+    border: none;
+    outline: none;
+    background-color: #23ac38;
+}
+.search ul{
+
+    float: left;
+}
+.search ul li{
+    float: left;
+    list-style: none;
+    margin-right: 11px;
+
+}
+.search ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #858585;
+}
+.register{
+    width: 198px;
+    height: 100%;
+    float: right;
+    margin-right: 64px;
+}
+.register p{
+    line-height: 118px;
+    color: #999999;
+}
+.register p a{
+    text-decoration: none;
+    color: #999999;
+    font-size: 12px;
+}
+.register p a.chinese{
+    color: #23ac38;
+    margin-right: 16px;
+}
+.register p a.global{
+    margin-right: 36px;
+}
+.register p a.log_in{
+    margin-right: 9px;
+}
+.register p a.sign_in{
+    margin-left: 8px;
+}
+
+.nav{
+    width: 1366px;
+    height: 62px;
+    padding-top: 23px;
+    border-top: 1px solid #ccc;
+    background-color: #f5f5f5;
+}
+.nav ul{
+    float: left;
+    margin-left: 67px;
+}
+.nav ul li{
+    float: left;
+    list-style: none;
+    margin-right: 29px;
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #252525;
+    font-size: 17px;
+}
+.nav ul li a .iconNEW,.nav ul li a .iconHOT-copy{
+    color: red;
+    font-size: 8px;
+}
+.nav ul li a.current{
+    color: #23ac38;
+}
+.banner{
+    width: 100%;
+    height: 393px;
+}
+.banner img{
+    margin-left: 14px;
+    border: 1px solid #e5e5e5;
+}
+
+
+.container{
+    width: 100%;
+    height: 2139px;
+}
+.main{
+    width: 1241px;
+    height: 2139px;
+    margin-left: 63px;
+}
+
+.recommend{
+    width: 100%;
+    height: 133px;
+}
+.securityMax, .browser,.hardware{
+    width: 413px;
+    height: 132px;
+    float: left;
+}
+
+.hot{
+    width: 100%;
+    height: 280px;
+}
+.new_situation{
+    width: 898px;
+    height: 280px;
+    float: left;
+    margin-right: 15px;
+}
+.new_situation .title,.download .title{
+    width: 898px;
+    height: 38px;
+}
+.new_situation .title p,.download .title p,.due_care .title p,.software_shop .shop_360 .title p,.software_shop .software_360 .title p,.safety_encyclopedia .title p,.guild .g_news .title p{
+    width: 150px;
+    height: 38px;
+    float: left;
+    font-size: 18px;
+    line-height: 38px;
+    color: #01bb50;
+
+
+}
+
+.new_situation .title p span,.download .title p span,.due_care .title p span,.software_shop .software_360 .title p span,.software_shop .shop_360 .title p span,.software_shop .shop_360 .title p span,.safety_encyclopedia .title p span,.guild .g_news .title span{
+    float: left;
+    height: 18px;
+    border-left: 2px solid #01bb50;
+    line-height: 18px;
+    margin-right: 8px;
+    margin-top: 10px;
+    display: inline-block;
+
+}
+.new_situation .title a,.download .title a{
+    float: right;
+    text-decoration: none;
+    margin-top: 12px;
+    color: #999999;
+    font-size: 14px;
+}
+.new_situation .pic_txt{
+    width: 898px;
+    height: 242px;
+}
+.pic_txt_1,.pic_txt_2,.pic_txt_3{
+    width: 290px;
+    height: 207px;
+    float: left;
+    margin-right: 7px;
+    margin-top: 10px;
+    border: 1px solid #e5e5e5;
+}
+.pic_txt_1 p,.pic_txt_2 p,.pic_txt_3 p{
+    font-size: 14px;
+    height: 45px;
+    line-height: 45px;
+    color: #333333;
+    text-align: center;
+}
+.download{
+    width: 328px;
+    height: 280px;
+    float: left;
+}
+.download .title{
+    width: 328px;
+}
+.download .load_software{
+    width: 328px;
+    height: 209px;
+    margin-top: 10px;
+    border-top: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+}
+.download .load_software .software{
+    width: 108px;
+    height: 103px;
+    float: left;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+
+}
+.download .load_software .software img{
+    margin-left: 42px;
+    margin-top: 14px;
+}
+.download .load_software .software p{
+    margin-top: 8px;
+    font-size: 14px;
+    height: 14px;
+    text-align: center;
+}
+.download .load_software .software button{
+    width: 42px;
+    height: 19px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 33px;
+    border: 1px solid #e5e5e5;
+    font-size: 12px;
+    background-color: #fff;
+}
+.due_care{
+    width: 100%;
+    height: 219px;
+    /*background-color: peru;*/
+}
+.due_care .title{
+    width: 100%;
+    height: 38px;
+}
+.due_care .pic_text{
+    width: 1241px;
+    height: 181px;
+}
+.due_care .pic_text .pic_text_1,.due_care .pic_text .pic_text_2,.due_care .pic_text .pic_text_3{
+    width: 378px;
+    height: 142px;
+    float: left;
+    border: 1px solid #e5e5e5;
+    margin-right: 33px;
+    margin-top: 10px;
+
+}
+.due_care .pic_text .pic_text_1 img{
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: left;
+}
+.due_care .pic_text .pic_text_1 p{
+    float: left;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    color: #8a8a8a;
+}
+.due_care .pic_text .pic_text_1 p.key_word{
+    font-weight: bold;
+    font-size: 16px;
+    height: 36px;
+    line-height: 36px;
+    margin-top: 33px;
+    color: #333;
+}
+.software_shop{
+    width: 100%;
+    height: 813px;
+}
+.software_shop .software_360{
+    width: 607px;
+    height: 813px;
+    margin-right: 25px;
+    float: left;
+}
+.software_shop .software_360 .title{
+    width: 150px;
+    height: 38px;
+}
+.software_shop .software_360 .content{
+    width: 605px;
+    height: 785px;
+}
+.software_shop .software_360 .content .c_software,.software_shop .shop_360 .goods .g_commodity{
+    width: 605px;
+    height: 734px;
+    border: 1px solid #e5e5e5;
+    margin-top: 10px;
+}
+.software_shop .software_360 .content .c_software .box,.software_shop .shop_360 .goods .g_commodity .box{
+    width: 605px;
+    height: 137px;
+}
+.software_shop .software_360 .content .c_software .box .box_1,.software_shop .shop_360 .goods .g_commodity .box .box_1{
+    width: 301px;
+    height: 142px;
+    float: left;
+    border-bottom: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+}
+.software_shop .software_360 .content .c_software .box div.right,.software_shop .shop_360 .goods .g_commodity .box div.right{
+    border-right: none;
+}
+.software_shop .software_360 .content .c_software .box .box_1 img{
+    float: left;
+    margin-top: 41px;
+    margin-left: 31px;
+}
+.software_shop .software_360 .content .c_software .box .box_1 a{
+
+    font-size: 12px;
+    color: #999999;
+    float: right;
+    margin-top: 9px;
+    margin-right: 10px;
+
+}
+.software_shop .software_360 .content .c_software .box .box_1 p{
+    font-size: 18px;
+    color: #333333;
+    margin-left: 33px;
+    margin-top: 22px;
+    float: left;
+
+}
+.software_shop .software_360 .content .c_software .box .box_1 button{
+    float: left;
+    width: 69px;
+    height: 28px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 22px;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+}
+.software_shop .software_360 .content .c_software .box .box_1 button.forum{
+    margin-left: 0;
+}
+.software_shop .software_360 .content .c_software .c_s_bottom{
+    width: 570px;
+    height: 43px;
+    margin-left: 32px;
+    margin-top: 10px;
+}
+.software_shop .software_360 .content .c_software div.first{
+    margin-top: 22px;
+}
+.software_shop .software_360 .content .c_software img{
+    float: left;
+    margin-top: 10px;
+}
+.software_shop .software_360 .content .c_software ul{
+    margin-left: 30px;
+    float: left;
+}
+.software_shop .software_360 .content .c_software ul li{
+    float: left;
+    height: 19px;
+    margin-top: 17px;
+    border-left: 1px solid #eaffff;
+    border-right: 1px solid #e1dbe1;
+    list-style: none;
+
+}
+.software_shop .software_360 .content .c_software ul li:first-child{
+    border-left: none;
+}
+.software_shop .software_360 .content .c_software ul li:last-child{
+    border-right: none;
+}
+.software_shop .software_360 .content .c_software ul li a{
+
+    margin-left:15px;
+    margin-right: 15px;
+    font-size: 14px;
+    margin-top: 17px;
+    text-decoration: none;
+    color: #333333;
+}
+.software_shop .shop_360 .title{
+    width: 609px;
+    height: 38px;
+}
+.software_shop .shop_360{
+    width: 609px;
+    height: 813px;
+    float: left;
+}
+.software_shop .shop_360 .goods{
+    width: 607px;
+    height: 785px;
+}
+.software_shop .shop_360 .goods .g_commodity{
+    width: 609px;
+}
+.software_shop .shop_360 .goods .g_commodity a img.HD_DVR{
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.software_shop .shop_360 .goods .g_commodity .box .box_1 .txt{
+    float: left;
+    width: 86px;
+    height: 86px;
+    margin-left: 40px;
+    margin-top: 49px;
+}
+
+.software_shop .shop_360 .goods .g_commodity .box .box_1 a{
+    text-decoration: none;
+
+}
+.software_shop .shop_360 .goods .g_commodity .box .box_1 .name{
+    font-size: 16px;
+    color: #333333;
+}
+.software_shop .shop_360 .goods .g_commodity .box .box_1 .price{
+    margin-top: 13px;
+    margin-left: 3px;
+    font-size: 13px;
+    color: #fc6721;
+}
+.software_shop .shop_360 .goods .g_commodity .box .box_1 img{
+    float: right;
+    margin-top: 23px;
+    margin-right: 38px;
+}
+.software_shop .shop_360 .goods .g_commodity .c_s_bottom{
+    width: 570px;
+    height: 43px;
+    margin-left: 32px;
+    margin-top: 10px;
+    float: left;
+}
+.software_shop .shop_360 .goods .g_commodity div.first{
+    margin-top: 0;
+}
+.software_shop .shop_360 .goods .g_commodity img.c_s_b_img{
+    float: left;
+    margin-top: 10px;
+}
+.software_shop .shop_360 .goods .g_commodity ul{
+    margin-left: 30px;
+    float: left;
+}
+.software_shop .shop_360 .goods .g_commodity ul li{
+    float: left;
+    height: 19px;
+    margin-top: 17px;
+    border-left: 1px solid #eaffff;
+    border-right: 1px solid #e1dbe1;
+    list-style: none;
+
+}
+.software_shop .shop_360 .goods .g_commodity ul li:first-child{
+    border-left: none;
+}
+.software_shop .shop_360 .goods .g_commodity ul li:last-child{
+    border-right: none;
+}
+.software_shop .shop_360 .goods .g_commodity ul li a{
+
+    margin-left:15px;
+    margin-right: 15px;
+    font-size: 14px;
+    margin-top: 17px;
+    text-decoration: none;
+    color: #333333;
+}
+.safety_encyclopedia{
+    width: 100%;
+    height: 218px;
+}
+
+.safety_encyclopedia .title{
+    width: 1241px;
+    height: 38px;
+}
+.safety_encyclopedia .system_safety_l,.safety_encyclopedia .system_safety_r{
+    width: 584px;
+    height: 180px;
+    float: left;
+    padding-left: 24px;
+}
+.safety_encyclopedia .system_safety_l,.safety_encyclopedia .system_safety_r p{
+    height: 27px;
+    line-height: 27px;
+    font-size: 13px;
+    color: #333;
+}
+.safety_encyclopedia .system_safety_l{
+    margin-right: 25px;
+}
+.guild{
+    width: 100%;
+    height: 467px;
+    background-color: #fff;
+}
+.guild .g_news{
+    width: 300px;
+    height: 378px;
+    float: left;
+    margin-right: 13px;
+
+}
+.guild div.last{
+    margin-right: 0;
+}
+.guild .g_news .title{
+    width: 300px;
+}
+.guild .g_news .m_pic_t{
+    float: left;
+    width: 298px;
+    height: 376px;
+    border: 1px solid #e5e5e5;
+}
+.guild .g_news .m_pic_t ul {
+    margin-left: 20px;
+}
+.guild .g_news .m_pic_t ul li{
+    list-style: square;
+    height: 31px;
+    line-height: 31px;
+
+}
+.guild .g_news .m_pic_t ul li a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 13px;
+}
+.guild .g_news .m_pic_t p{
+    float: right;
+    margin-top: 19px;
+}
+.guild .g_news .m_pic_t p a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #333333;
+
+}
+.bottom{
+    width: 100%;
+    height: 295px;
+    background-color: #f6f6f6;
+}
+.bottom .service{
+    float: left;
+    width: 989px;
+    height: 100%;
+    margin-right: 13px;
+}
+.bottom .service dl{
+    float: left;
+    padding-left: 20px;
+    padding-top: 40px;
+    width: 164px;
+    border-left: 1px solid #e5e5e5;
+
+}
+.bottom .service dl:first-child{
+    margin-left: 64px;
+}
+.bottom .service dl dt{
+    font-size: 18px;
+    height: 38px;
+    line-height: 38px;
+    color: #333333;
+}
+.bottom .service dl dd{
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+}
+.bottom .service dl dd a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #666666;
+}
+.focus{
+    float: left;
+    width: 316px;
+    height: 100%;
+}
+.focus dl{
+    padding-left: 35px;
+    padding-top: 40px;
+}
+.focus dl dt{
+    height: 38px;
+    line-height: 38px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.focus dl dt a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #666;
+}
+.focus dl dt img{
+    margin-right: 11px;
+    margin-left: 110px;
+}
+.focus dl dd img:first-child{
+    margin-right: 30px;
+
+}
+.focus dl dd p a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #999;
+    margin-left: 34px;
+    margin-top: 9px;
+}
+.focus dl dd p .link{
+    margin-right: 62px;
+}
+
+.footer{
+    width: 100%;
+    height: 113px;
+    padding-top: 40px;
+}
+.footer p{
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+}
+.footer p img{
+    margin-right: 5px;
+}
+.footer p a{
+    text-decoration: none;
+    color: #999;
+    font-size: 12px;
+}
